@@ -1,0 +1,6 @@
+box:
+  hostname: www.idsc.pixel
+  url: "http://idsc.pixel/dev/build?flush=all"
+project:
+  client: IDSC
+  type: silverstripe
