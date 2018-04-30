@@ -17,20 +17,20 @@ request.onload = function() {
             ;
         }
         accordionContainer.innerHTML = accList;
-        function accordionClick(){
-            var accordionLink = document.getElementsByClassName('accordion-item')
-            for (var i = 0; i < accordionLink.length; i++) {
-                var elem = accordionLink[i];
+        function accClick(){
+            var accLink = document.getElementsByClassName('accordion-item')
+            for (var i = 0; i < accLink.length; i++) {
+                var elem = accLink[i];
                 elem.addEventListener('click', function (event) {
-                    for (var j = 0; j < accordionLink.length; j++)
-                        accordionLink[j].classList.remove("active")
+                    for (var j = 0; j < accLink.length; j++)
+                        accLink[j].classList.remove("active")
                     this.classList.add('active');
                 }, false);
             }
         }
-        accordionClick();
+        accClick();
     } else {
-
+        console.log('error pulling in JSON')
     }
 };
 

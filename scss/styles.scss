@@ -52,9 +52,10 @@ p {
 			}
 			position: relative;
 			&:after {
-				content: "\f107";
-				font-family: FontAwesome;
+				content: "\f078";
+				font-family: "Font Awesome 5 Free";
 				color: #fff;
+				font-weight:900;
 				font-size: 2em;
 				position: absolute;
 				top: 33%;
@@ -78,7 +79,7 @@ p {
 				padding: 1em;
 				border-bottom: 5px solid darken(#6f277d, 10%);
 				&:after {
-					content: "\f106";
+					content:"\f077";
 				}
 			}
 			.accordion-content {
